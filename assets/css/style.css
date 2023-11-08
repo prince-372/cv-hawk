@@ -1072,6 +1072,7 @@ nav ul li a:hover {
     .border-line-nav {
         border-bottom: unset;
         min-width: unset;
+        padding-bottom: unset;
     }
     /* max-width */
     .mw_499 {
