@@ -24,7 +24,7 @@
 
 /* nav */
 .nav_gap {
-    gap: 41px;
+    gap: 24px;
 }
 
 nav ul li a {
@@ -86,6 +86,7 @@ nav ul li a:hover {
     text-align: center;
     border-bottom: 1px solid var(--gray);
     min-width: 209px;
+    padding-bottom: 20px;
 }
 
 
@@ -955,19 +956,6 @@ nav ul li a:hover {
     }
 }
 
-
-/* @keyframes logo {
-    0% {
-        position: absolute;
-        top: -20%;
-    }
-    100% {
-        position: absolute;
-        top: 20%
-    }
-} */
-
-
 /* medie quary */
 
 @media (min-width:576px) {
@@ -1142,6 +1130,9 @@ nav ul li a:hover {
         position: absolute;
         top: 45%;
         right: -1%;
+    }
+    .nav_gap {
+        gap: 41px;
     }
 }
 
