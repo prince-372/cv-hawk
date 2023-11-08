@@ -59,7 +59,7 @@
         <nav class="my-container container ">
             <div class="d-flex align-items-center justify-content-between">
                 <div><img class="page-logo cursor-pointer" src="./assets/image/logo.webp" alt="page-logo"></div>
-                <div class=" icon  d-flex d-lg-none flex-column justify-content-between" onclick="navbar()">
+                <div class=" icon  d-flex d-lg-none flex-column justify-content-between" onclick="nav()">
                     <span class=" cross1"></span>
                     <span class=" position-relative cross2"></span>
                     <span class=" cross3"></span>
@@ -68,25 +68,25 @@
                     class="px-0 mb-0 d-flex flex-column flex-lg-row justify-content-center align-items-center view nav_gap">
                     <li class="d-block d-sm-none"><img class="page-logo cursor-pointer" src="./assets/image/logo.webp"
                             alt="page-logo"></li>
-                    <li class="border-line-nav"><a href="#home" aria-label="home" onclick="navbar2()">Home</a>
+                    <li class="border-line-nav"><a href="#home" aria-label="home" onclick="nav2()">Home</a>
                     </li>
-                    <li class="border-line-nav"><a href="#about_us" aria-label="about" onclick="navbar2()">About</a>
+                    <li class="border-line-nav"><a href="#about_us" aria-label="about" onclick="nav2()">About</a>
                     </li>
-                    <li class="border-line-nav"><a href="#blog" aria-label="We’ll" onclick="navbar2()">We’ll help
+                    <li class="border-line-nav"><a href="#blog" aria-label="We’ll" onclick="nav2()">We’ll help
                             you</a>
                     </li>
-                    <li><a href="#choose" aria-label="Testimonials" onclick="navbar2()">Testimonials</a></li>
+                    <li><a href="#Testimonials" aria-label="Testimonials" onclick="nav2()">Testimonials</a></li>
                     <li class="d-block d-sm-none"> <a href="#footer" aria-label="btn-main"
-                            class=" btn-main  text-decoration-none" onclick="navbar2()">Get
+                            class=" btn-main  text-decoration-none" onclick="nav2()">Get
                             in
                             Touch</a></li>
                 </ul>
                 <a aria-label="d-none" href="#" class=" btn-main d-none d-sm-block text-decoration-none me-5 me-lg-0  "
-                    onclick="navbar2()">Get in
+                    onclick="nav2()">Get in
                     Touch</a>
             </div>
         </nav>
-        <div
+        <div id="home"
             class="d-flex flex_grow justify-content-center align-items-center flex-column position-relative z-2 pt-5 pt-mf-0">
             <span class="sec1-elipes"></span>
             <div class="sec-main-elipes object_fit d-none d-md-block"><img class="width"
@@ -209,7 +209,7 @@
         </div>
     </section>
     <!-- we help you -->
-    <section class="py-5 position-relative overflow-hidden">
+    <section id="blog" class="py-5 position-relative overflow-hidden">
         <span class="we_right_ellipse d-none d-sm-block"></span>
         <span class="we_left_ellipse d-none d-sm-block"></span>
         <div class="my-container container py-md-5 my-lg-5">
@@ -342,7 +342,7 @@
         </div>
     </section>
     <!-- What our Clients Say -->
-    <section class="gray-2 position-relative">
+    <section id="about_us" class="gray-2 position-relative">
         <span class="ellipse_left d-none d-sm-block"></span>
         <div class="container my-container py-5 position-relative">
             <h2 class="mb-0 ff-Rubik fw-medium fs_xxl black text-center">What our Clients Say</h2>
@@ -664,7 +664,7 @@
         </div>
     </section>
     <!-- footer -->
-    <section class="transform_translate ">
+    <section id="Testimonials" class="transform_translate ">
         <div class="my-container container card-orange text-center">
             <h2 class="mb-0 ff-Rubik fw-medium fs_xxl text_white mw_669 mx-auto">Your Path to Success Starts Here: Build
                 Your CV Today
